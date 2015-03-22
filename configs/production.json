@@ -1,0 +1,21 @@
+{
+    "typeName": "statisticalMatchMaker.production",
+    "options": {
+        "gradeNames": ["autoInit", "fluid.littleComponent"],
+        "distributeOptions": {
+            "source": "{that}.options.matchMakerGrades",
+            "target": "{that matchMaker}.options.gradeNames"
+        },
+        "components": {
+            "server": {
+                "options": {
+                    "port": 8077
+                }
+            }
+        },
+        "matchMakerGrades": ["gpii.matchMaker.statistical"]
+    },
+    "includes": [
+        "../node_modules/universal/gpii/node_modules/matchMaker/configs/production.json"
+    ]
+}
