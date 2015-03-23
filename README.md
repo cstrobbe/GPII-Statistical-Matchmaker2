@@ -27,7 +27,7 @@ Per default, using the Debug environment, the matchmaker will listen on port 807
 	
 Usage example using [curl](http://curl.haxx.se/):
 
-	curl -X POST -H "Content-Type: application/json" localhost:80/match -d @some_preference_set.json
+	curl -X POST -H "Content-Type: application/json" localhost:8077/match -d @some_preference_set.json
 
 ## Funding Acknowledgement
 
