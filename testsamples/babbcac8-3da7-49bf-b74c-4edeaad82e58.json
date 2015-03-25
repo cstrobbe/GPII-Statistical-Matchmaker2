@@ -1,0 +1,145 @@
+{
+    "preferences": {
+       "http://registry.gpii.org/applications/com.microsoft.windows.magnifier": [
+          {
+             "value": {
+                "Magnification": {
+                   "value": 100,
+                   "dataType": "REG_DWORD"
+                },
+                "Invert": {
+                   "dataType": "REG_DWORD"
+                },
+                "FollowFocus": {
+                   "value": 0,
+                   "dataType": "REG_DWORD"
+                },
+                "FollowCaret": {
+                   "value": 0,
+                   "dataType": "REG_DWORD"
+                },
+                "FollowMouse": {
+                   "value": 1,
+                   "dataType": "REG_DWORD"
+                },
+                "MagnificationMode": {
+                   "value": 2,
+                   "dataType": "REG_DWORD"
+                }
+             }
+          }
+       ],
+       "http://registry.gpii.org/applications/org.nvda-project": [
+          {
+             "value": {
+                "speech.espeak.pitch": "40",
+                "speech.espeak.volume": "100",
+                "presentation.reportHelpBalloons": true,
+                "keyboard.speakTypedCharacters": "True",
+                "keyboard.speakTypedWords": true,
+                "speech.espeak.sayCapForCapitals": "False",
+                "virtualBuffers.autoSayAllOnPageLoad": false,
+                "reviewCursor.followFocus": true,
+                "reviewCursor.followCaret": true,
+                "reviewCursor.followMouse": true,
+                "speech.synth": "espeak",
+                "speech.outputDevice": "Microsoft Sound Mapper",
+                "speech.espeak.rate": "38.70967741935484",
+                "speech.espeak.rateBoost": "False",
+                "speech.symbolLevel": "300",
+                "speech.espeak.voice": "es"
+             }
+          }
+       ],
+       "http://registry.gpii.org/applications/com.microsoft.windows.highContrast": [
+          {
+             "value": {
+                "HighContrastOn": {
+                   "value": false,
+                   "path": "pvParam.dwFlags.HCF_HIGHCONTRASTON"
+                }
+             }
+          }
+       ],
+       "http://registry.gpii.org/applications/com.microsoft.windows.mouseTrailing": [
+          {
+             "value": {
+                "HighContrastOn": {
+                   "value": 0,
+                   "path": {
+                      "get": "pvParam",
+                      "set": "uiParam"
+                   }
+                }
+             }
+          }
+       ],
+       "http://registry.gpii.org/applications/com.microsoft.windows.cursors": [
+          {
+             "value": {
+                "Arrow": {
+                   "value": "%SystemRoot%\\cursors\\aero_arrow.cur",
+                   "dataType": "REG_SZ"
+                },
+                "Hand": {
+                   "value": "%SystemRoot%\\cursors\\aero_link.cur",
+                   "dataType": "REG_SZ"
+                },
+                "Help": {
+                   "value": "%SystemRoot%\\cursors\\aero_helpsel.cur",
+                   "dataType": "REG_SZ"
+                },
+                "AppStarting": {
+                   "value": "%SystemRoot%\\cursors\\aero_working.ani",
+                   "dataType": "REG_SZ"
+                },
+                "No": {
+                   "value": "%SystemRoot%\\cursors\\aero_unavail.cur",
+                   "dataType": "REG_SZ"
+                },
+                "NWPen": {
+                   "value": "%SystemRoot%\\cursors\\aero_pen.cur",
+                   "dataType": "REG_SZ"
+                },
+                "SizeAll": {
+                   "value": "%SystemRoot%\\cursors\\aero_move.cur",
+                   "dataType": "REG_SZ"
+                },
+                "SizeNESW": {
+                   "value": "%SystemRoot%\\cursors\\aero_nesw.cur",
+                   "dataType": "REG_SZ"
+                },
+                "SizeNS": {
+                   "value": "%SystemRoot%\\cursors\\aero_ns.cur",
+                   "dataType": "REG_SZ"
+                },
+                "SizeNWSE": {
+                   "value": "%SystemRoot%\\cursors\\aero_nwse.cur",
+                   "dataType": "REG_SZ"
+                },
+                "SizeWE": {
+                   "value": "%SystemRoot%\\cursors\\aero_ew.cur",
+                   "dataType": "REG_SZ"
+                },
+                "UpArrow": {
+                   "value": "%SystemRoot%\\cursors\\aero_up.cur",
+                   "dataType": "REG_SZ"
+                },
+                "Wait": {
+                   "value": "%SystemRoot%\\cursors\\aero_busy.ani",
+                   "dataType": "REG_SZ"
+                }
+             }
+          }
+       ]
+    },
+    "device": {
+        "OS": {
+            "id": "linux",
+            "version": "2.6.26"
+        },
+        "solutions": {
+            "id": "org.gnome.orca"
+        }
+    }
+}
