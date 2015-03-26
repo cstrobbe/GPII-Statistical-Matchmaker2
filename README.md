@@ -3,9 +3,14 @@
 This is an archived version of the runtime component of the 
 Cloud4all Statistical Matchmaker (STMM) as it was in November 2014. 
 
-See the [initial commit in REMEXLabs/GPII-Statistical-Matchmaker](https://github.com/REMEXLabs/GPII-Statistical-Matchmaker/tree/be6ea4601355653a0d62bbb86354e4f93c0e192b).
+It is based on the 
+[initial commit in REMEXLabs/GPII-Statistical-Matchmaker](https://github.com/REMEXLabs/GPII-Statistical-Matchmaker/tree/be6ea4601355653a0d62bbb86354e4f93c0e192b)
+with some minor modifications.
 
-For testing GPII/Cloud4all, you should always use the [current version of the Statistical Matchmaker](https://github.com/REMEXLabs/GPII-Statistical-Matchmaker).
+This archive also contains additional payloads (see the usage examples below).
+
+For testing an up-to-date version of GPII/Cloud4all, you should always use the 
+[current version of the Statistical Matchmaker](https://github.com/REMEXLabs/GPII-Statistical-Matchmaker).
 
 ## Dependencies
 
