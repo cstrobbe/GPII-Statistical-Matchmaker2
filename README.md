@@ -9,7 +9,7 @@ For testing GPII/Cloud4all, you should always use the [current version of the St
 
 ## Dependencies
 
-* [GPII's real-time framework ("universal")](https://github.com/GPII/universal)
+* The [pilots2 branch of GPII's real-time framework ("universal")](https://github.com/GPII/universal/tree/pilots2)
 
 ## Installation Instructions
 
@@ -28,6 +28,10 @@ Per default, using the Debug environment, the matchmaker will listen on port 807
 Usage example using [curl](http://curl.haxx.se/):
 
 	curl -X POST -H "Content-Type: application/json" localhost:8077/match -d @some_preference_set.json
+
+You can also use the sample payloads in the folder `testsamples`. For example: 
+
+	curl -X POST -H "Content-Type: application/json" localhost:8077/match -d @testsamples/03c01e3e-ae46-4ed8-a9d9-763a98944f25.json
 
 ## Funding Acknowledgement
 
